@@ -1,0 +1,12 @@
+#............output after terraform apply................
+fruits_names = tolist([
+  "apple",
+  "banana",
+  "apple",
+  "orange",
+])
+fruits_set = toset([
+  "apple",
+  "banana",
+  "orange",
+])
